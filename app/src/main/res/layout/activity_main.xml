@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1,2,3">
+
+    <TableRow
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_span="4"
+            android:background="?attr/colorPrimary"
+            android:backgroundTint="#212121"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:title="Crazy layouts"
+            app:titleTextColor="@color/white" />
+
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_span="3"
+            android:background="#128575"
+            android:padding="5dp"
+            android:text="@string/Producto"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_span="1"
+            android:background="#128575"
+            android:padding="5dp"
+            android:paddingStart="50dp"
+            android:text="@string/Subtotal"
+            android:textColor="@color/white" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_span="3"
+            android:text="@string/cosa1"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_span="1"
+            android:text="@string/precio1"
+            android:paddingStart="50dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_span="3"
+            android:text="@string/cosa2"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_span="1"
+            android:text="@string/precio2"
+            android:paddingStart="50dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        >
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_span="3"
+            android:text="@string/cosa3"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_span="1"
+            android:text="@string/precio3"
+            android:paddingStart="50dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        >
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_span="3"
+            android:text="@string/cosa4"
+            android:paddingLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_span="1"
+            android:text="@string/precio4"
+            android:paddingStart="50dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp">
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:background="?android:attr/listDivider"
+            android:layout_span="4"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        >
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_column="2"
+            android:text="@string/Subtotal"
+            android:paddingLeft="100dp"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_column="3"
+            android:text="@string/SubtotalD"
+            android:paddingStart="50dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        >
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_column="2"
+            android:text="@string/CostoEnvio"
+            android:paddingLeft="100dp"/>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_column="3"
+            android:text="@string/CostoED"
+            android:paddingStart="50dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        >
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_column="2"
+            android:text="@string/Cupon"
+            android:paddingLeft="100dp"/>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_column="3"
+            android:text="@string/CuponD"
+            android:paddingStart="50dp"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        >
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_column="2"
+            android:text="@string/Total"
+            android:paddingLeft="100dp"/>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_column="3"
+            android:text="@string/TotalD"
+            android:paddingStart="50dp"
+            />
+    </TableRow>
+
+</TableLayout>

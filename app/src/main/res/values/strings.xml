@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Eval1OrdinariaEx</string>
+    <string name="Producto">Producto</string>
+    <string name="Subtotal">Subtotal</string>
+    <string name="cosa1">Jabon de manos x 1</string>
+    <string name="cosa2">Shampoo Monster x 1</string>
+    <string name="cosa3">Pastas Duria x 2</string>
+    <string name="cosa4">Detergente Limpiadin x 1</string>
+    <string name="precio1">$2</string>
+    <string name="precio2">$10</string>
+    <string name="precio3">$18</string>
+    <string name="precio4">$13,4</string>
+    <string name="CostoEnvio">Costo envio</string>
+    <string name="Cupon">Cupón</string>
+    <string name="Total">Total</string>
+    <string name="SubtotalD">$43,4</string>
+    <string name="CostoED">$10</string>
+    <string name="CuponD">-$5</string>
+    <string name="TotalD">$48,4</string>
+</resources>
